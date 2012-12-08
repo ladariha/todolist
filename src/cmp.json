@@ -1,0 +1,13 @@
+{
+    "name": "vendor/todolist",
+    "description": "Description of project todolist.",
+    "authors": [
+        {
+            "name": "vriha",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.2.*"
+    }
+}

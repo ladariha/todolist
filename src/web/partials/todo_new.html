@@ -1,0 +1,30 @@
+<div class="custom" id="specpool_partial">
+    <div class="span8">
+
+        <h1>New TODO</h1>
+        <div class="span9">
+            <form name="newTodo">
+                <h3>Duty:</h3>
+                <input style="width: 70%" type="text" ng-model="todo.text" name="duty" required="required" />
+                <h3>Labels (comma separated):</h3>
+                <input style="width: 70%" type="text" ng-model="todo.labelsRaw" name="labels"/>
+                
+            </form>
+        </div>
+    </div>
+    <div class="span4">
+        <div class="btn-toolbar">
+            <div class="btn-group"  >
+                <button class="btn" ng-click="createTodo()" title="Create" ng-disabled="newTodo.$invalid"><i class="icon-ok"></i>&nbsp; Create</button>
+                <button class="btn" ng-click="cancel()" title="Cancel"><i class="icon-remove"></i>&nbsp; Cancel</button>
+            </div>
+        </div>
+        <form name="myForm2" >
+            <h3>Date:</h3>
+            <input style="width: 30%" type="text" ng-model="todo.date" name="pid" required="required"  id="start" />
+        </form>
+
+
+
+    </div>
+</div>
